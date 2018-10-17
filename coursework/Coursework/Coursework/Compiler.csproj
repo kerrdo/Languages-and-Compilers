@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F49684B2-6C73-4E5E-823F-1F047529EB5D}</ProjectGuid>
+    <ProjectGuid>{E9166FB4-BF88-403C-BCBC-9507A9BFD23A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>coursework</RootNamespace>
-    <AssemblyName>coursework</AssemblyName>
+    <RootNamespace>Coursework</RootNamespace>
+    <AssemblyName>Coursework</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyntacticAnalyzer\Scanner.cs" />
+    <Compile Include="SyntacticAnalyzer\SourceFile.cs" />
+    <Compile Include="SyntacticAnalyzer\Token.cs" />
+    <Compile Include="SyntacticAnalyzer\TokenKind.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
